@@ -37,3 +37,14 @@ graph TD
     style C fill:#45b7d1,stroke:#333,stroke-width:2px,color:#fff
     style D fill:#96ceb4,stroke:#333,stroke-width:2px,color:#fff
 ```
+```mermaid
+graph LR
+    A[User] <--> B[Python NumPy Interface]
+    B --> C[NumPy Core]
+    C --> D[C++ Implementation]
+    
+    style A fill:#ff6b35,stroke:#333,stroke-width:3px,color:#000
+    style B fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#45b7d1,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#96ceb4,stroke:#333,stroke-width:2px,color:#000
+```
