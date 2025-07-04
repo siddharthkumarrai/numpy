@@ -18,3 +18,22 @@ graph TD
     style E fill:#ffe66d,stroke:#333,stroke-width:1px,color:#000
     style G fill:#ffe66d,stroke:#333,stroke-width:1px,color:#000
 ```
+```mermaid
+graph TD
+    A[User] --> B[Python NumPy Interface]
+    B --> A
+    
+    B --> C[NumPy Core]
+    C --> D[C++ Implementation]
+    
+    subgraph "NumPy Stack"
+        D
+        C
+        B
+    end
+    
+    style A fill:#ff6b35,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#45b7d1,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#96ceb4,stroke:#333,stroke-width:2px,color:#fff
+```
