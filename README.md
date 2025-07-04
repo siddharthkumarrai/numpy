@@ -37,3 +37,14 @@ graph TD
     style C fill:#45b7d1,stroke:#333,stroke-width:2px,color:#000
     style D fill:#96ceb4,stroke:#333,stroke-width:2px,color:#000
 ```
+## Creating Array from list
+```python
+import numpy as np
+
+arr_1D = np.array([1,2,3]) 
+print(arr_1D)                                output: [1 2 3]
+
+arr_2D = np.array([[1,2,3],[4,5,6]])
+print(arr_2D)                                output: [[1 2 3]
+                                                      [4 5 6]]
+```
