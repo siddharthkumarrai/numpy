@@ -107,5 +107,39 @@ output:-
 vector of random number : 
  [0 2 4 6 8]
 ```
+## vector , matrix and Tensor
+```python
+vector = np.array([1,2,3,4])
+print("vector : ", vector)
+output:- 
+vector :  [1 2 3 4]
 
+matrix = np.array([[1,2,3],
+                   [4,5,6],
+                   [7,8,9]])
+print("matrix : \n",matrix)
+output:- 
+matrix : 
+ [[1 2 3]
+ [4 5 6]
+ [7 8 9]]
 
+tensor = np.array([[[1,2,3], [4,5,6], [7,8,9]],
+                   [[10,11,12], [13,14,15], [16,17,18]],
+                   [[19,20,21], [22,23,24], [25,26,27]]])
+print("tensor : \n",tensor, "\n", tensor.shape)
+output:- 
+tensor : 
+ [[[ 1  2  3]
+  [ 4  5  6]
+  [ 7  8  9]]
+
+ [[10 11 12]
+  [13 14 15]
+  [16 17 18]]
+
+ [[19 20 21]
+  [22 23 24]
+  [25 26 27]]] 
+ (3, 3, 3)
+```
