@@ -67,3 +67,44 @@ np_array = np.arange(100000000)
 np_array*2
 print("\n list operation Numpy array : ", time.time() - start)    output: list operation Numpy array :  0.7995524406433105
 ```
+## creating Numpy Array form scaratch
+zeros_arr = np.zeros((3,3))
+print("matrix of ones : \n",zeros_arr)            
+output:- 
+matrix of ones : 
+ [[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+
+ones_arr = np.ones((3,3))
+print("ones matrix(array) : \n", ones_arr)
+output:- 
+ones matrix(array) : 
+ [[1. 1. 1.]
+ [1. 1. 1.]
+ [1. 1. 1.]]
+
+full_constant_arr = np.full((3,3),7)
+print("matrix of constant number : \n", full_constant_arr)
+output:- 
+matrix of constant number : 
+ [[7 7 7]
+ [7 7 7]
+ [7 7 7]]
+
+random_num_arr = np.random.random((3,3))
+print("matrix of random number : \n", random_num_arr)
+output:-
+matrix of random number : 
+ [[0.67331133 0.78696991 0.3835139 ]
+ [0.56709472 0.39115883 0.40419826]
+ [0.03819528 0.24757474 0.91139398]]
+
+sequence_arr = np.arange(0,10,2)
+print("vector of random number : \n", sequence_arr)
+output:-
+vector of random number : 
+ [0 2 4 6 8]
+```
+
+
