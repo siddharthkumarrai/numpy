@@ -194,8 +194,4 @@ arr = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
 print("Baic Slicing : ", arr[3:8])                output:-  Baic Slicing :  [4 5 6 7 8]
 print("Slice with step : ",arr[2:9:3])            output:- Slice with step :  [3 6 9]
 print("Negative indexing :",arr[-2])              output:- Negative indexing : 11
-
-Baic Slicing :  [4 5 6 7 8]
-Slice with step :  [3 6 9]
-Negative indexing : 11
 ```
