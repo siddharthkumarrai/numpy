@@ -68,6 +68,7 @@ np_array*2
 print("\n list operation Numpy array : ", time.time() - start)    output: list operation Numpy array :  0.7995524406433105
 ```
 ## creating Numpy Array form scaratch
+```python
 zeros_arr = np.zeros((3,3))
 print("matrix of ones : \n",zeros_arr)            
 output:- 
