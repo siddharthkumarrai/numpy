@@ -143,3 +143,48 @@ tensor :
   [25 26 27]]] 
  (3, 3, 3)
 ```
+## Array properties
+```python
+numpy_array1 = np.array([[1,2,3],
+                         [4,5,6],
+                         [7,8,9]])
+
+print("shape : ", numpy_array1.shape)            output:- shape :  (3, 3)
+print("dimension : ", numpy_array1.ndim)         output:- dimension :  2
+print("size : ", numpy_array1.size)              output:- size :  9
+print("dataType : ", numpy_array1.dtype)         output:- dataType :  int64
+```
+## Array Reshaping
+```python
+arr = np.arange(12)
+print("Orignal array : ",arr)
+output :-
+Orignal array :  [ 0  1  2  3  4  5  6  7  8  9 10 11]
+
+reshaped_arr = arr.reshape((4,3))
+print("Reshaped array : \n",reshaped_arr)
+output :-
+Reshaped array : 
+ [[ 0  1  2]
+ [ 3  4  5]
+ [ 6  7  8]
+ [ 9 10 11]]
+
+flatten_arr = reshaped_arr.flatten()
+print("Flattern array : ", flatten_arr)
+output :-
+Flattern array :  [ 0  1  2  3  4  5  6  7  8  9 10 11]
+
+reveled_arr = reshaped_arr.ravel()          # return view insted of copy
+print("Reveled array : ", reveled_arr)
+output :-
+Reveled array :  [ 0  1  2  3  4  5  6  7  8  9 10 11]
+
+transpose_arr = reshaped_arr.T
+print("Transpose array : \n", transpose_arr)
+output :-
+Transpose array : 
+ [[ 0  3  6  9]
+ [ 1  4  7 10]
+ [ 2  5  8 11]]
+```
