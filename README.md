@@ -48,3 +48,11 @@ arr_2D = np.array([[1,2,3],[4,5,6]])
 print(arr_2D)                                output: [[1 2 3]
                                                       [4 5 6]]
 ```
+## Numpy Array vs Python List
+```python
+py_list = [1,2,3]
+print("python list multiplication : ", py_list * 2)             output: python list multiplication :  [1, 2, 3, 1, 2, 3]
+
+np_array = np.array([[1,2,3]])
+print("python numpy array multiplication : ", np_array * 2)     output: python numpy array multiplication :  [[2 4 6]]
+```
